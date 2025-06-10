@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocu_devops=self.webpackChunkdocu_devops||[]).push([[1903],{1912:o=>{o.exports=JSON.parse('{"blogBasePath":"/docu-devops/blog","blogTitle":"Blog","authorsListPath":"/docu-devops/blog/authors"}')}}]);
