@@ -5,7 +5,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'Docu DevMas',
+  title: 'DevMas',
   tagline: 'DevmMas are cool',
   favicon: 'img/favicon.ico',
 
@@ -18,7 +18,7 @@ const config: Config = {
   url: 'https://dimasx010.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/docu-devops',
+  baseUrl: '/docu-devmas',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -45,7 +45,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            undefined,
         },
         blog: {
           showReadingTime: true,
@@ -56,7 +56,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            undefined,
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
@@ -108,10 +108,11 @@ const config: Config = {
               label: '📚 Documentación',
               to: '/docs/intro',
             },
+            /*
             {
               label: '📄 Blog',
               to: '/blog',
-            },
+            },*/
           ],
         },
         {
@@ -126,10 +127,12 @@ const config: Config = {
         {
           title: 'More',
           items: [
+            /*
             {
               label: 'Blog',
               to: '/blog',
             },
+            */
             {
               label: 'GitHub',
               href: 'https://github.com/facebook/docusaurus',
