@@ -1,8 +1,8 @@
 ---
-sidebar_position: 2
+sidebar_position: 6
 ---
 
-# Translate your site
+# 🐱‍🐉 | Translate your site
 
 Let's translate `docs/intro.md` to French.
 
